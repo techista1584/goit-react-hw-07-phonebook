@@ -44,7 +44,7 @@ export const ContactForm = ({ addContact, contacts }) => {
   return (
   <div className={css.container}>
     <h1 className={css.Title}>Phonebook</h1>
-    <form className={css.form} onSubmit={handleSubmit}>
+    <form className={css.form} onSubmit={handleSubmit} autoComplete='off'>
       <label className={css.formField}>
         <p className={css.formLabel}>Name</p>
         <input
